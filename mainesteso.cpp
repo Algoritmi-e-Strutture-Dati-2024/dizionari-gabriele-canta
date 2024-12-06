@@ -11,7 +11,7 @@ int main() {
     dict.inserisci("book", "object");
 
     // Caso di collisione
-    dict.inserisci("car", "automobile"); 
+    dict.inserisci("arc", "automobile"); 
 
     // Recupero dei valori associati alle chiavi
     std::cout << "Value for 'apple': " << dict.recupera("apple") << "\n";
